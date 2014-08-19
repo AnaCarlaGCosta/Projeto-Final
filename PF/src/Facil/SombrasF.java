@@ -74,12 +74,12 @@ public class SombrasF extends javax.swing.JFrame {
         getContentPane().add(jLabel2);
         jLabel2.setBounds(130, 230, 260, 240);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Geral/imagens/gif claro.gif"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Gimagens/gif claro.gif"))); // NOI18N
         getContentPane().add(jLabel3);
         jLabel3.setBounds(0, 0, 550, 500);
 
-        setSize(new java.awt.Dimension(566, 538));
-        setLocationRelativeTo(null);
+        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
+        setBounds((screenSize.width-566)/2, (screenSize.height-538)/2, 566, 538);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
