@@ -9,6 +9,7 @@
  */
 public class TesteCommit {
     
+    int x;
     private String teste;
     
 }
